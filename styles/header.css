@@ -1,0 +1,101 @@
+.header {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 31%;
+  display: flex;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 22px;
+  padding: 4px 4px;
+  margin-top: 4px;
+}
+
+.logo-container:hover {
+  background-color: #E8F5FE;
+}
+
+.container-option-header {
+  border: none;
+  border-radius: 25px;
+  width: min-content;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-bottom: 5px;
+}
+
+.container-option-header:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 40px;
+  left: 57.5%;
+}
+
+.logo-header {
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-header:hover {
+  cursor: pointer;
+}
+
+.logo-svg {
+  width: 28px;
+}
+
+.option-header {
+  display: flex;
+  padding: 12px 14px;
+  align-items: center;
+}
+
+
+.icon-option {
+  width: 22px;
+}
+
+.name-option {
+  margin-left: 25px;
+  font-size: 18px;
+}
+
+.twit-button {
+  border: none;
+  width: 220px;
+  height: 50px;
+  background-color: #1D9BF0;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 25px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.twit-button:hover {
+  background-color: #0b91eb;
+}
+
+.footer-header {
+  display: flex;
+  position: absolute;
+  bottom: 5px;
+  right: inherit;
+  width: min-content;
+}
