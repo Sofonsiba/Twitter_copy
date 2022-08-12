@@ -28,7 +28,7 @@
   width: min-content;
   cursor: pointer;
   transition: background-color 0.2s;
-  margin-bottom: 5px;
+  margin-bottom: 14px;
 }
 
 .container-option-header:hover {
@@ -64,7 +64,6 @@
   align-items: center;
 }
 
-
 .icon-option {
   width: 22px;
 }
@@ -76,7 +75,7 @@
 
 .twit-button {
   border: none;
-  width: 220px;
+  width: 210px;
   height: 50px;
   background-color: #1D9BF0;
   color: white;
@@ -93,9 +92,53 @@
 }
 
 .footer-header {
-  display: flex;
   position: absolute;
-  bottom: 5px;
-  right: inherit;
-  width: min-content;
+  bottom: 20px;;
+  left: 57%;
 }
+
+.footer-content {
+  padding: 10px 10px;
+  display: flex;
+  width: 230px;
+  justify-content: space-between;
+  transition: background-color 0.2s;
+  border-radius: 30px;
+}
+
+.footer-content:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.user-pic {
+  font-family: monospace sans-serif;
+  font-size: 24px;
+  padding: 6px 10px;
+  border: none;
+  background-color: #78909C;
+  color: white;
+  border-radius: 22px;
+  margin-right: 10px;
+}
+
+.user-information {
+  font-size: 14px;
+  margin-left: -85px;
+}
+
+.user-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.acc-name {
+  color: gray;
+}
+
+.icon-footer {
+  width: 18px;
+  margin-right: 10px;
+}
+  
+
+
