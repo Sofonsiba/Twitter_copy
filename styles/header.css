@@ -5,6 +5,9 @@
   left: 0;
   width: 31%;
   display: flex;
+  border-right: solid 1px rgb(240, 240, 240);
+  z-index: 300;
+  background-color: white;
 }
 
 .logo-container {
@@ -38,9 +41,12 @@
 .header-content {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   position: absolute;
   right: 40px;
   left: 57.5%;
+  height: 100%;
+  flex: 1;
 }
 
 .logo-header {
@@ -89,6 +95,11 @@
 
 .twit-button:hover {
   background-color: #0b91eb;
+}
+
+.bottom-footer-header {
+  padding-bottom: 20px;
+  margin-top: 20px;
 }
 
 .footer-header {

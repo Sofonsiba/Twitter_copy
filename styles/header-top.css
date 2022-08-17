@@ -1,0 +1,57 @@
+.header-top-page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 31%;
+  right: 35%;
+  height: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  z-index: 200;
+  background-color: rgba(255, 255, 255, 0.97);
+  cursor: pointer;
+}
+
+.header-top-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.top-twits-container {
+  position: relative;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  transition: background-color 0.2s;
+}
+
+.top-twits-container:hover {
+  background-color: rgb(240, 240, 240);
+}
+
+.top-twits-container:hover .notice-tweets {
+  opacity: 1;
+}
+
+.notice-tweets {
+  position: absolute;
+  white-space: nowrap;
+  pointer-events: none;
+  font-size: 10px;
+  background-color: rgb(100, 100, 100);
+  color: white;
+  border-radius: 2px;
+  padding: 3px 3px;
+  margin-left: -11px;
+  margin-top: 2px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+
+.top-twits {
+  width: 25px;
+  padding: 6px 6px;
+}
