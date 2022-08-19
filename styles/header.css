@@ -100,11 +100,12 @@
 .bottom-footer-header {
   padding-bottom: 20px;
   margin-top: 20px;
+  margin-left: -10px;
 }
 
 .footer-header {
   position: absolute;
-  bottom: 20px;;
+  bottom: 20px;
   left: 57%;
 }
 
@@ -138,7 +139,7 @@
 }
 
 .user-name {
-  font-weight: bold;
+  font-weight: 500;
   margin-bottom: 5px;
 }
 
