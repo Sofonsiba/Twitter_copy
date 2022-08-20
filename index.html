@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="styles/header-top.css">
   <link rel="stylesheet" href="styles/main-content.css">
   <link rel="stylesheet" href="styles/right-section.css">
-  <link rel="stylesheet" href="styles/right-side-content.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -116,16 +115,33 @@
     
   </header>
 
-  <main>
-    <div class="main-content">
+  <header class="top-right-section">
+    <div class="input-search-container">
+      <img src="icons/search.svg" class="search-icon">
+      <input type="text" class="search-input" placeholder="Search Twitter">
+    </div>
+  </header>
 
-      <div class="write-tweet">
-        <div class="top-menu-write-tweet">
-          <div class="user-pic-tweet">M</div>
-          <input type="text" class="write-my-tweet" placeholder="What's Happening?">
+  <main>
+  
+    <div class="main-content">
+      <div class="center-container-content">
+
+        <div class="write-tweet">
+          <div class="top-menu-write-tweet">
+            <div class="user-pic-tweet">M</div>
+            <input type="text" class="write-my-tweet" placeholder="What's happening?" aria-rowspan="5">
+          </div>
+        
+          <div class="bottom-menu-write-tweet">
+
+          </div>
+
         </div>
+
       </div>
-      <div class="bottom-menu-write-tweet">
+
+      <div class="right-side-content">
 
       </div>
 
@@ -135,12 +151,7 @@
     
   </main>
 
-  <header class="top-right-section">
-    <div class="input-search-container">
-      <img src="icons/search.svg" class="search-icon">
-      <input type="text" class="search-input" placeholder="Search Twitter">
-    </div>
-  </header>
+  
 
   <!--<aside class="right-content-container">
     <div class="trends-for-your">
